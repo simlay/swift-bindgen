@@ -2,6 +2,8 @@
 members = [
     "swift",
     "swift-bindgen",
+    "swift-demangle",
     "swift-rt",
     "swift-sys",
 ]
+resolver = "2"

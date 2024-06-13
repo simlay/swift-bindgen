@@ -8,7 +8,7 @@ readme = "../README.md"
 homepage = "https://github.com/rustswift/swift-bindgen"
 repository = "https://github.com/rustswift/swift-bindgen"
 documentation = "https://docs.rs/swift"
-edition = "2018"
+edition = "2021"
 keywords = ["swift", "bindgen", "stdlib"]
 categories = ["abi-bindings", "development-tools::ffi"]
 

@@ -8,6 +8,11 @@ readme = "../README.md"
 homepage = "https://github.com/rustswift/swift-bindgen"
 repository = "https://github.com/rustswift/swift-bindgen"
 documentation = "https://docs.rs/swift-bindgen"
-edition = "2018"
+edition = "2021"
 keywords = ["swift", "bindgen"]
 categories = ["api-bindings", "development-tools::ffi"]
+
+[dependencies]
+swift-demangle = { path = "../swift-demangle" }
+serde = { version = "1.0", features = ["derive"] }
+serde_yaml = "0.9"

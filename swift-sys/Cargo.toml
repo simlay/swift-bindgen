@@ -8,10 +8,10 @@ readme = "../README.md"
 homepage = "https://github.com/rustswift/swift-bindgen"
 repository = "https://github.com/rustswift/swift-bindgen"
 documentation = "https://docs.rs/swift-sys"
-edition = "2018"
+edition = "2021"
 keywords = ["swift", "bindgen", "runtime"]
 categories = ["external-ffi-bindings", "development-tools::ffi"]
 
 [features]
-default = []
+default = ["link"]
 link = []
